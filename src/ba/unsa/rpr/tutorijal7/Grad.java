@@ -1,4 +1,4 @@
-package sample;
+package ba.unsa.rpr.tutorijal7;
 
 public class Grad {
     private String naziv;

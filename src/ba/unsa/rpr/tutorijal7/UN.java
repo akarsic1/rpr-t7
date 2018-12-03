@@ -1,4 +1,4 @@
-package sample;
+package ba.unsa.rpr.tutorijal7;
 
 import java.util.ArrayList;
 
