@@ -52,7 +52,7 @@ public class Tutorijal {
                 ucitani.add(novi);
             }
         } catch (FileNotFoundException e) {
-            System.out.println("Datoteka mjerenja.txt ne postoji ili se ne može otvoriti");
+            System.out.println("Datoteka mjerenja.txt ne postoji");
         } finally {
             ulaz.close();
         }

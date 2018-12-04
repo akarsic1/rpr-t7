@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<drzave>
+    <drzava stanovnika="5500000">
+        <naziv>Zambija</naziv>
+        <glavnigrad stanovnika="4000000">
+            <naziv>Sarajevo</naziv>
+        </glavnigrad>
+        <povrsina jedinica="km2">51129</povrsina>
+    </drzava>
+    <drzava stanovnika="80000000">
+        <naziv>Kongo</naziv>
+        <glavnigrad stanovnika="2500000">
+            <naziv>Amel</naziv>
+        </glavnigrad>
+        <povrsina jedinica="km2">200000</povrsina>
+    </drzava>
+    <drzava stanovnika="15000000000">
+        <naziv>Kna</naziv>
+        <glavnigrad stanovnika="345000000">
+            <naziv>Drugi grad</naziv>
+        </glavnigrad>
+        <povrsina jedinica="km2">355487</povrsina>
+    </drzava>
+</drzave>
