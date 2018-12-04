@@ -5,12 +5,11 @@ import java.io.Serializable;
 public class Grad implements Serializable {
     private String naziv;
     private int brojStanovnika;
-    private Double []temperature = new Double[1000];
+    private Double[]  temperature = new Double[1000];
 
     public Grad(){
         naziv = null;
         brojStanovnika = 0;
-        temperature = null;
     }
 
     public Grad(String naziv, int brojStanovnika, Double[] temperature) {

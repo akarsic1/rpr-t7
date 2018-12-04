@@ -14,9 +14,9 @@
         </glavnigrad>
         <povrsina jedinica="km2">200000</povrsina>
     </drzava>
-    <drzava stanovnika="15000000000">
+    <drzava stanovnika="15000000">
         <naziv>Kna</naziv>
-        <glavnigrad stanovnika="345000000">
+        <glavnigrad stanovnika="3450000">
             <naziv>Drugi grad</naziv>
         </glavnigrad>
         <povrsina jedinica="km2">355487</povrsina>

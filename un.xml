@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="10.0.2" class="java.beans.XMLDecoder">
+ <object class="ba.unsa.rpr.tutorijal7.UN">
+  <void property="clanice">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="ba.unsa.rpr.tutorijal7.Drzava">
+      <void property="brojStanovnika">
+       <int>5500000</int>
+      </void>
+      <void property="glavniGrad">
+       <object class="ba.unsa.rpr.tutorijal7.Grad" id="Grad0">
+        <void property="brojStanovnika">
+         <int>4000000</int>
+        </void>
+        <void property="naziv">
+         <string>Sarajevo</string>
+        </void>
+        <void property="temperature">
+         <void index="0">
+          <double>5.4</double>
+         </void>
+         <void index="1">
+          <double>15.8</double>
+         </void>
+         <void index="2">
+          <double>2.3</double>
+         </void>
+         <void index="3">
+          <double>0.44</double>
+         </void>
+         <void index="4">
+          <double>-1.1</double>
+         </void>
+        </void>
+       </object>
+      </void>
+      <void property="jedinicaZaPovrsinu">
+       <string>km2</string>
+      </void>
+      <void property="naziv">
+       <string>Zambija</string>
+      </void>
+      <void property="povrsina">
+       <double>51129.0</double>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="ba.unsa.rpr.tutorijal7.Drzava">
+      <void property="brojStanovnika">
+       <int>80000000</int>
+      </void>
+      <void property="glavniGrad">
+       <object class="ba.unsa.rpr.tutorijal7.Grad">
+        <void property="brojStanovnika">
+         <int>2500000</int>
+        </void>
+        <void property="naziv">
+         <string>Amel</string>
+        </void>
+        <void property="temperature">
+         <null/>
+        </void>
+       </object>
+      </void>
+      <void property="jedinicaZaPovrsinu">
+       <string>km2</string>
+      </void>
+      <void property="naziv">
+       <string>Kongo</string>
+      </void>
+      <void property="povrsina">
+       <double>200000.0</double>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="ba.unsa.rpr.tutorijal7.Drzava">
+      <void property="brojStanovnika">
+       <int>15000000</int>
+      </void>
+      <void property="glavniGrad">
+       <object class="ba.unsa.rpr.tutorijal7.Grad">
+        <void property="brojStanovnika">
+         <int>3450000</int>
+        </void>
+        <void property="naziv">
+         <string>Drugi grad</string>
+        </void>
+        <void property="temperature">
+         <null/>
+        </void>
+       </object>
+      </void>
+      <void property="jedinicaZaPovrsinu">
+       <string>km2</string>
+      </void>
+      <void property="naziv">
+       <string>Kna</string>
+      </void>
+      <void property="povrsina">
+       <double>355487.0</double>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

@@ -31,14 +31,14 @@ public class Tutorijal {
                 int i = 0;
                 for (; i < cijelaLinija.length(); i++) {
                     if (cijelaLinija.charAt(i) == ',') {
-                        novi.setNaziv(cijelaLinija.substring(0, i));
+                        novi.setNaziv(cijelaLinija.substring(0, i));//moze i sa .split
                         break;
                     }
                 }
                 i++;
                 int pocetakBroja = -1;
                 Double[] temperature = new Double[1000];
-                for (int j = 0; j < novi.getTemperature().length && i < cijelaLinija.length(); j++) {
+                for (int j = 0; j < novi.getTemperature().length && i < cijelaLinija.length(); i++) {
                     if (pocetakBroja == -1) pocetakBroja = i;
                     if (cijelaLinija.charAt(i) == ',') {
                         temperature[j] = Double.parseDouble(cijelaLinija.substring(pocetakBroja, i));
@@ -82,22 +82,22 @@ public class Tutorijal {
                     String nazivGlavnogGrada = ((Element) glavniGrad.item(0)).getElementsByTagName("naziv").item(0).getTextContent();
                     int brojStanovnikaGlavnogGrada = Integer.parseInt(((Element) glavniGrad.item(0)).getAttribute("stanovnika"));
                     Double[] temperature = new Double[1000];
-                    Grad postoji = null;
+                    Grad novi = null;
                     for (int j = 0; j < gradovi.size(); j++) {
                         if (gradovi.get(j).getNaziv().equals(nazivGlavnogGrada)) {
-                            postoji = gradovi.get(j);
+                            novi = gradovi.get(j);
                             temperature = gradovi.get(j).getTemperature();
                             gradovi.get(j).setBrojStanovnika(brojStanovnikaGlavnogGrada);
                             break;
                         }
                     }
                     Drzava nova = new Drzava();
-                    if(postoji != null) {
+                    if(novi != null) {
                         nova.setNaziv(naziv);
                         nova.setBrojStanovnika(brojStanovnika);
                         nova.setPovrsina(povrsina);
                         nova.setJedinicaZaPovrsinu(jedinicaZaPovrsinu);
-                        nova.setGlavniGrad(postoji);
+                        nova.setGlavniGrad(novi);
                         ucitane.add(nova);
                     }
                     else{
